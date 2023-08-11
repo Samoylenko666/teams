@@ -2,7 +2,7 @@
 
 namespace App\Actions\Teams;
 
-use Jurager\Teams\Contracts\DeletesTeams;
+use Samoylenko\Teams\Contracts\DeletesTeams;
 
 class DeleteTeam implements DeletesTeams
 {

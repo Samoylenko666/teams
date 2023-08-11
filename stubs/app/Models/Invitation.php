@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Jurager\Teams\Teams;
-use Jurager\Teams\Models\Invitation as InvitationModel;
+use Samoylenko\Teams\Teams;
+use Samoylenko\Teams\Models\Invitation as InvitationModel;
 
 class Invitation extends InvitationModel
 {

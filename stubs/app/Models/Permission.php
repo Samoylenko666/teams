@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Jurager\Teams\Teams;
-use Jurager\Teams\Models\Permission as PermissionModel;
+use Samoylenko\Teams\Teams;
+use Samoylenko\Teams\Models\Permission as PermissionModel;
 
 class Permission extends PermissionModel
 {

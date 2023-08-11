@@ -5,8 +5,8 @@ namespace App\Actions\Teams;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\ValidationException;
-use Jurager\Teams\Contracts\RemovesTeamMembers;
-use Jurager\Teams\Events\TeamMemberRemoved;
+use Samoylenko\Teams\Contracts\RemovesTeamMembers;
+use Samoylenko\Teams\Events\TeamMemberRemoved;
 
 class RemoveTeamMember implements RemovesTeamMembers
 {

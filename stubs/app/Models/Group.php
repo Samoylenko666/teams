@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Teams;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class Group extends Model

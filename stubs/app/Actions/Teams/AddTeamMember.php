@@ -4,11 +4,11 @@ namespace App\Actions\Teams;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
-use Jurager\Teams\Contracts\AddsTeamMembers;
-use Jurager\Teams\Events\AddingTeamMember;
-use Jurager\Teams\Events\TeamMemberAdded;
-use Jurager\Teams\Rules\Role;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Contracts\AddsTeamMembers;
+use Samoylenko\Teams\Events\AddingTeamMember;
+use Samoylenko\Teams\Events\TeamMemberAdded;
+use Samoylenko\Teams\Rules\Role;
+use Samoylenko\Teams\Teams;
 
 class AddTeamMember implements AddsTeamMembers
 {

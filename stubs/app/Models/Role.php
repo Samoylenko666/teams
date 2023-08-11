@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Jurager\Teams\Models\Role as RoleModel;
+use Samoylenko\Teams\Models\Role as RoleModel;
 
 /**
  * @property int $id

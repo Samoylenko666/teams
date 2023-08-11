@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Teams;
 use App\Actions\Teams\AddTeamMember;
 use App\Actions\Teams\CreateTeam;
 use App\Actions\Teams\DeleteTeam;

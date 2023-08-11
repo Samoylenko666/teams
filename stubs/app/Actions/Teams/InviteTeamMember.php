@@ -2,15 +2,15 @@
 
 namespace App\Actions\Teams;
 
-use Jurager\Teams\Mail\Invitation;
+use Samoylenko\Teams\Mail\Invitation;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
-use Jurager\Teams\Contracts\InvitesTeamMembers;
-use Jurager\Teams\Events\InvitingTeamMember;
-use Jurager\Teams\Teams;
-use Jurager\Teams\Rules\Role;
+use Samoylenko\Teams\Contracts\InvitesTeamMembers;
+use Samoylenko\Teams\Events\InvitingTeamMember;
+use Samoylenko\Teams\Teams;
+use Samoylenko\Teams\Rules\Role;
 
 class InviteTeamMember implements InvitesTeamMembers
 {

@@ -4,9 +4,9 @@ namespace App\Actions\Teams;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
-use Jurager\Teams\Contracts\CreatesTeams;
-use Jurager\Teams\Events\AddingTeam;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Contracts\CreatesTeams;
+use Samoylenko\Teams\Events\AddingTeam;
+use Samoylenko\Teams\Teams;
 
 class CreateTeam implements CreatesTeams
 {

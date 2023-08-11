@@ -3,8 +3,8 @@
 namespace App\Actions\Teams;
 
 use Illuminate\Support\Facades\DB;
-use Jurager\Teams\Contracts\DeletesTeams;
-use Jurager\Teams\Contracts\DeletesUsers;
+use Samoylenko\Teams\Contracts\DeletesTeams;
+use Samoylenko\Teams\Contracts\DeletesUsers;
 
 class DeleteUser implements DeletesUsers
 {

@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Jurager\Teams\Models\Capability as CapabilityModel;
+use Samoylenko\Teams\Models\Capability as CapabilityModel;
 
 /**
  * @property int $id

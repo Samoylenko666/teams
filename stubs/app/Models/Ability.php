@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Jurager\Teams\Teams;
-use Jurager\Teams\Models\Ability as AbilityModel;
+use Samoylenko\Teams\Teams;
+use Samoylenko\Teams\Models\Ability as AbilityModel;
 
 class Ability extends AbilityModel
 {

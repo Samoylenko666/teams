@@ -4,7 +4,7 @@ namespace App\Actions\Teams;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
-use Jurager\Teams\Contracts\UpdatesTeamNames;
+use Samoylenko\Teams\Contracts\UpdatesTeamNames;
 
 class UpdateTeamName implements UpdatesTeamNames
 {

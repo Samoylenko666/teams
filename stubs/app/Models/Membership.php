@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Jurager\Teams\Models\Membership as MembershipModel;
+use Samoylenko\Teams\Models\Membership as MembershipModel;
 
 class Membership extends MembershipModel
 {
