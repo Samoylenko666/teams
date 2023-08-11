@@ -1,16 +1,16 @@
 <?php
 
-namespace Jurager\Teams;
+namespace Samoylenko\Teams;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Jurager\Teams\Contracts\AddsTeamMembers;
-use Jurager\Teams\Contracts\CreatesTeams;
-use Jurager\Teams\Contracts\DeletesTeams;
-use Jurager\Teams\Contracts\DeletesUsers;
-use Jurager\Teams\Contracts\InvitesTeamMembers;
-use Jurager\Teams\Contracts\RemovesTeamMembers;
-use Jurager\Teams\Contracts\UpdatesTeamNames;
+use Samoylenko\Teams\Contracts\AddsTeamMembers;
+use Samoylenko\Teams\Contracts\CreatesTeams;
+use Samoylenko\Teams\Contracts\DeletesTeams;
+use Samoylenko\Teams\Contracts\DeletesUsers;
+use Samoylenko\Teams\Contracts\InvitesTeamMembers;
+use Samoylenko\Teams\Contracts\RemovesTeamMembers;
+use Samoylenko\Teams\Contracts\UpdatesTeamNames;
 
 class Teams
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Middleware;
+namespace Samoylenko\Teams\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

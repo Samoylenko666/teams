@@ -1,12 +1,12 @@
 <?php
 
-namespace Jurager\Teams\Actions;
+namespace Samoylenko\Teams\Actions;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
-use Jurager\Teams\Events\TeamMemberUpdated;
-use Jurager\Teams\Teams;
-use Jurager\Teams\Rules\Role;
+use Samoylenko\Teams\Events\TeamMemberUpdated;
+use Samoylenko\Teams\Teams;
+use Samoylenko\Teams\Rules\Role;
 
 class UpdateTeamMemberRole
 {

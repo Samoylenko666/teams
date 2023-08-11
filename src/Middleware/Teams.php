@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Middleware;
+namespace Samoylenko\Teams\Middleware;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -47,7 +47,7 @@ class Teams
 
 		// Get the team model
 		//
-		$team = (\Jurager\Teams\Teams::teamModel())::where('id', $foreign_id)->firstOrFail();
+		$team = (\Samoylenko\Teams\Teams::teamModel())::where('id', $foreign_id)->firstOrFail();
 
 		// Check the ability
 		//

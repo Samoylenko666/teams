@@ -1,9 +1,9 @@
 <?php
 
-namespace Jurager\Teams\Rules;
+namespace Samoylenko\Teams\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Teams;
 
 class Role implements Rule
 {

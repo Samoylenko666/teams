@@ -33,7 +33,7 @@ Installation
 -------------------------------------------
 
 ```sh
-composer require jurager/teams
+composer require samoylenko/teams
 ```
 
 To complete the installation you need to run `artisan:publish` command to add configs and additional files for package to work.
@@ -57,7 +57,7 @@ These actions include `CreateTeam`, `UpdateTeamName`, and `DeleteTeam`. Each of 
 
 Users
 -------------------------------------------
-Package provide `Jurager\Teams\Traits\HasTeams` trait, that  applied to your application's `App\Models\User` model during installation and provides methods to inspect a user's teams
+Package provide `Samoylenko\Teams\Traits\HasTeams` trait, that  applied to your application's `App\Models\User` model during installation and provides methods to inspect a user's teams
 
 
 ```php
@@ -74,7 +74,7 @@ $user->ownsTeam($team) : bool
 $user->belongsToTeam($team) : bool
 
 // Get the role that the user is assigned on the team...
-$user->teamRole($team) : \Jurager\Teams\Role
+$user->teamRole($team) : \Samoylenko\Teams\Role
 
 // Determine if the user has the given role on the given team...
 $user->hasTeamRole($team, 'admin') : bool
@@ -164,7 +164,7 @@ Member Management
 Only owners can manage team membership, that restriction is defined in the `App\Policies\TeamPolicy`. Naturally, you are free to modify this policy as you see fit.
 
 
-Like the customization process for other package features, team member addition logic may be customized by modifying the `App\Actions\Teams\AddTeamMember` action class. The class' `add` method is invoked with the currently authenticated user, the `Jurager\Teams\Team` instance, the email address of the user being added to the team, and the role (if applicable) of the user being added to the team.
+Like the customization process for other package features, team member addition logic may be customized by modifying the `App\Actions\Teams\AddTeamMember` action class. The class' `add` method is invoked with the currently authenticated user, the `Samoylenko\Teams\Team` instance, the email address of the user being added to the team, and the role (if applicable) of the user being added to the team.
 
 This action is responsible for validating that the user can actually be added to the team and then adding the user to the team. You are free to customize this action based on the needs of your particular application.
 
@@ -241,7 +241,7 @@ The second argument for `$team->addRole` function is array of `capabilities`, th
 
 ### Authorization
 
-Of course, you will need a way to authorize that incoming requests initiated by a team member may actually be performed by that user. A user's team permissions may be inspected using the `hasTeamPermission` method available via the `Jurager\Teams\Traits\HasTeams` trait.
+Of course, you will need a way to authorize that incoming requests initiated by a team member may actually be performed by that user. A user's team permissions may be inspected using the `hasTeamPermission` method available via the `Samoylenko\Teams\Traits\HasTeams` trait.
 
 **There is typically not a need to inspect a user's role. You only need to inspect that the user has a given granular permission.** Roles are simply a presentational concept used to group granular permissions. Typically, you will execute calls to this method within your application's [authorization policies](https://laravel.com/docs/authorization) :
 
@@ -288,9 +288,9 @@ The middleware is registered automatically as `role`, `permission`, `ability`.
 If you want to change or customize them, go to your `config/teams.php` and set the `middleware.register` value to `false` and add the following to the `routeMiddleware` array in `app/Http/Kernel.php`:
 
 ```php
-'role'       => \Jurager\Teams\Middleware\Role::class, 
-'permission' => \Jurager\Teams\Middleware\Permission::class,
-'ability'    => \Jurager\Teams\Middleware\Ability::class,
+'role'       => \Samoylenko\Teams\Middleware\Role::class, 
+'permission' => \Samoylenko\Teams\Middleware\Permission::class,
+'ability'    => \Samoylenko\Teams\Middleware\Ability::class,
 ```
 
 ### Middleware Routes

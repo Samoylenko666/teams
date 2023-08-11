@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Actions;
+namespace Samoylenko\Teams\Actions;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\ValidationException;

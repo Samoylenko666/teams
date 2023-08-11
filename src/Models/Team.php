@@ -1,9 +1,9 @@
 <?php
 
-namespace Jurager\Teams\Models;
+namespace Samoylenko\Teams\Models;
 
-use Jurager\Teams\Owner;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Owner;
+use Samoylenko\Teams\Teams;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

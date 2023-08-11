@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Console;
+namespace Samoylenko\Teams\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

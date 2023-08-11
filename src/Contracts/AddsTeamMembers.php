@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Contracts;
+namespace Samoylenko\Teams\Contracts;
 
 interface AddsTeamMembers
 {

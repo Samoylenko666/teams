@@ -1,13 +1,13 @@
 <?php
 
-namespace Jurager\Teams\Traits;
+namespace Samoylenko\Teams\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
-use Jurager\Teams\Owner;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Owner;
+use Samoylenko\Teams\Teams;
 
 trait HasTeams
 {

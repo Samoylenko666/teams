@@ -1,10 +1,10 @@
 <?php
 
-namespace Jurager\Teams\Models;
+namespace Samoylenko\Teams\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Teams;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

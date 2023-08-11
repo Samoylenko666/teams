@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams;
+namespace Samoylenko\Teams;
 
 use JsonSerializable;
 

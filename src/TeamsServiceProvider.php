@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams;
+namespace Samoylenko\Teams;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -90,9 +90,9 @@ class TeamsServiceProvider extends ServiceProvider
 		}
 
 		$middlewares = [
-			'ability'    => \Jurager\Teams\Middleware\Ability::class,
-			'role'       => \Jurager\Teams\Middleware\Role::class,
-			'permission' => \Jurager\Teams\Middleware\Permission::class,
+			'ability'    => \Samoylenko\Teams\Middleware\Ability::class,
+			'role'       => \Samoylenko\Teams\Middleware\Role::class,
+			'permission' => \Samoylenko\Teams\Middleware\Permission::class,
 		];
 
 		foreach ($middlewares as $key => $class) {

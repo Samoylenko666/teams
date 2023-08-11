@@ -1,8 +1,8 @@
 <?php
 
-namespace Jurager\Teams\Models;
+namespace Samoylenko\Teams\Models;
 
-use Jurager\Teams\Teams;
+use Samoylenko\Teams\Teams;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Model;
 

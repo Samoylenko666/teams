@@ -1,6 +1,6 @@
 <?php
 
-namespace Jurager\Teams\Events;
+namespace Samoylenko\Teams\Events;
 
 class TeamCreated extends TeamEvent
 {
